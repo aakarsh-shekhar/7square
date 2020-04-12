@@ -1525,7 +1525,7 @@ h3 {
 
 /* line 19, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .features_area .features_main_wrap {
-  padding: 50px 0;
+  padding: 0px 0;
 }
 
 @media (max-width: 767px) {
@@ -3484,15 +3484,15 @@ h3 {
 /* line 46, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
 .service_area .col-lg-4:nth-child(3) .single_service .thumb {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#37ef8d+0,37ef8d+100 */
-  background: #37ef8d;
+  background: #f25246;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #37ef8d 0%, #37ef8d 100%);
+  background: -moz-linear-gradient(left, #f25246 0%, #f25246 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #37ef8d 0%, #37ef8d 100%);
+  background: -webkit-linear-gradient(left, #37ef8d 0%, #f25246 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #37ef8d 0%, #37ef8d 100%);
+  background: linear-gradient(to right, #f25246 0%, #f25246 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37ef8d', endColorstr='#37ef8d',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25246', endColorstr='#f25246',GradientType=1 );
   /* IE6-9 */
 }
 
