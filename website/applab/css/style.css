@@ -417,7 +417,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #37EBED;
+  background: #2676d1;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -1188,8 +1188,8 @@ h3 {
   right: 0;
   z-index: 990;
   transform: translateY(70px);
-  transition: transform 5000ms ease, background 5000ms ease;
-  -webkit-transition: transform 5000ms ease, background 5000ms ease;
+  transition: transform 2000ms ease, background 2000ms ease;
+  -webkit-transition: transform 2000ms ease, background 2000ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.96);
   background: linear-gradient(to right, #1c3c6f , transparent 100%);
@@ -3442,11 +3442,11 @@ h3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
   background: #0181f5;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: -moz-linear-gradient(left, #0a3c78 0%, #5db2ff 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+  background: -webkit-linear-gradient(left, #0a3c78 0%, #5db2ff 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  background: linear-gradient(to right, #0a3c78 0%, #5db2ff 100%); 
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0181f5', endColorstr='#5db2ff',GradientType=1 );
   /* IE6-9 */
@@ -3469,13 +3469,13 @@ h3 {
 /* line 37, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
 .service_area .col-lg-4:nth-child(2) .single_service .thumb {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdae5c+0,fd8e5e+100 */
-  background: #fdae5c;
+  background: #2670c9;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  background: -moz-linear-gradient(left, #216cc4 0%, #5db2ff  100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #fdae5c 0%, #fd8e5e 100%);
+  background: -webkit-linear-gradient(left, #216cc4 0%, #5db2ff  100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #fdae5c 0%, #fd8e5e 100%);
+  background: linear-gradient(to right, #216cc4 0%, #5db2ff  100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdae5c', endColorstr='#fd8e5e',GradientType=1 );
   /* IE6-9 */
@@ -3484,13 +3484,13 @@ h3 {
 /* line 46, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_service.scss */
 .service_area .col-lg-4:nth-child(3) .single_service .thumb {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#37ef8d+0,37ef8d+100 */
-  background: #f25246;
+  background: #40aeed;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #f25246 0%, #f25246 100%);
+  background: -moz-linear-gradient(left, #2676d1 0%, #5db2ff 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #37ef8d 0%, #f25246 100%);
+  background: -webkit-linear-gradient(left, #2676d1 0%, #5db2ff 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #f25246 0%, #f25246 100%);
+  background: linear-gradient(to right, #2676d1 0%, #5db2ff 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25246', endColorstr='#f25246',GradientType=1 );
   /* IE6-9 */

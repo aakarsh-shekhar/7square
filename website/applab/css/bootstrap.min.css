@@ -468,8 +468,9 @@ small {
 
 .mark,
 mark {
-    padding: .2em;
-    background-color: #fcf8e3
+    padding: .0em;
+    background-color: rgba(255, 255, 255, .0);
+    
 }
 
 .list-unstyled {
