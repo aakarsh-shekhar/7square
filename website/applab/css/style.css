@@ -1753,9 +1753,11 @@ h3 {
   padding: 13px 46px 14px 46px;
 }
 
+
 /* line 168, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .productivity_area {
   background-image: url(../img/banner/product.png);
+  opacity: 100%;
   background-size: cover;
   background-position: center center;
   padding: 164px 0;
@@ -1771,10 +1773,10 @@ h3 {
 
 /* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .productivity_area h3 {
-  font-size: 46px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 100;
   color: #FFFFFF;
-  line-height: 60px;
+  line-height: 10px;
 }
 
 @media (max-width: 767px) {
@@ -1783,9 +1785,11 @@ h3 {
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 10px;
-    text-align: center;
+    
+    
   }
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
@@ -1796,7 +1800,7 @@ h3 {
 
 /* line 192, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
 .productivity_area .app_download {
-  text-align: right;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -2027,6 +2031,8 @@ h3 {
   color: #727272;
   line-height: 28px;
 }
+/*test*/
+
 
 /* line 112, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_gallery.scss */
 .mt-50 {
@@ -7054,5 +7060,47 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+hr {
+  display: block;
+  
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+/*test*/
+.partners {
+  background-size: small;
+  background: image(
+  
+  )
+ 
+  
+}
+.partners h3 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  color: #133f6f;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 /*# sourceMappingURL=style.css.map */
