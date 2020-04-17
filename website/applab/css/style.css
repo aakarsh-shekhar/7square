@@ -1782,6 +1782,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 177, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_features.scss */
   .productivity_area h3 {
+    text-align: center;
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 10px;
