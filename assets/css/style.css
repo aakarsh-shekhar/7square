@@ -573,12 +573,12 @@ section {
 }
 
 .section-bg {
-  background-color: #eeeef5;
+  background-color: #ffffff;
 }
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 1px;
 }
 
 .section-title h2 {
@@ -1724,7 +1724,7 @@ div {
 }
 
 .inner {
-  max-width: 1000px;
+  max-width: 700px;
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -1765,8 +1765,8 @@ div {
   width: auto;
   height: 400px;
   max-width: 400px;
-  background: #eee;
-  border: solid 1px #ccc;
+  background: #ffffff;
+  border: solid 1px #ffffff;
 }
 
 .scroll-container.diff-size .scroll-section {
@@ -1775,8 +1775,8 @@ div {
   max-width: 100%;
   scroll-snap-coordinate: 0% 50%;
   margin-bottom: 15px;
-  border: solid 1px #ccc;
-  background: #eee
+  border: solid 1px #ffffff;
+  background: #ffffff
 }
 
 .scroll-container.diff-size .scroll-section:first-child {
