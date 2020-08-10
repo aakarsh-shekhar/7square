@@ -1781,12 +1781,10 @@ div {
 
 .scroll-container.diff-size .scroll-section:first-child {
   scroll-snap-coordinate: 0% 50%;
-  margin-top: 50%;
 }
 
 .scroll-container.diff-size .scroll-section:last-child {
   scroll-snap-coordinate: 0% 50%;
-  margin-bottom: 50%;
 }
 
 .p {
