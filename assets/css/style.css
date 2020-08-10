@@ -1671,3 +1671,125 @@ section {
   color: #fff;
   text-decoration: none;
 }
+/* testing scrollable list*/
+/*clearfixes*/
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*block level elements*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+div {
+  margin: 1.5rem 0rem;
+}
+
+div {
+  margin: 0rem;
+}
+
+.page {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  max-width: none;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.failure {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+/*SCROLL SNAP SYLES*/
+
+.scroll-container {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: auto;
+  height: 400px;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+  font-size: 0px;
+}
+
+.scroll-container .scroll-section {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  border: solid 1px #ccc;
+  margin-bottom: 50px;
+}
+
+.scroll-container.diff-size {
+  scroll-snap-destination: 0% 50%;
+  padding: 0px 15px;
+  text-align: center;
+  width: auto;
+  height: 400px;
+  max-width: 400px;
+  background: #eee;
+  border: solid 1px #ccc;
+}
+
+.scroll-container.diff-size .scroll-section {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  scroll-snap-coordinate: 0% 50%;
+  margin-bottom: 15px;
+  border: solid 1px #ccc;
+  background: #eee
+}
+
+.scroll-container.diff-size .scroll-section:first-child {
+  scroll-snap-coordinate: 0% 50%;
+  margin-top: 50%;
+}
+
+.scroll-container.diff-size .scroll-section:last-child {
+  scroll-snap-coordinate: 0% 50%;
+  margin-bottom: 50%;
+}
+
+.p {
+  text-align: center;
+  padding-top: 80px;
+}
