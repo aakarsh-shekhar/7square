@@ -1693,17 +1693,6 @@ section {
 }
 /*block level elements*/
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
 div {
   margin: 1.5rem 0rem;
 }
@@ -1716,6 +1705,11 @@ div {
   margin: 0px;
   padding: 0px;
 }
+div {
+  margin: 1.5rem 0rem;
+}
+
+
 
 .main {
   margin: 0px;
@@ -1785,6 +1779,7 @@ div {
 
 .scroll-container.diff-size .scroll-section:last-child {
   scroll-snap-coordinate: 0% 50%;
+  
 }
 
 .p {
