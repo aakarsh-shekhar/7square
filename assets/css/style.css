@@ -98,7 +98,9 @@ section {
 --------------------------------------------------------------*/
 
 #acquired-banned {
-   color: ghostwhite;
+   color: white;
+   justify-content: center;
+   background-color: lightslategrey;
 }
 
 #acquired-banned span a {
