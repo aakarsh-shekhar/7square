@@ -96,6 +96,15 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+#acquired-banned {
+   color: ghostwhite;
+}
+
+#acquired-banned span a {
+   color: white;
+}
+
 #header {
   transition: all 0.5s;
   z-index: 997;
